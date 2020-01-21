@@ -1,0 +1,11 @@
+file = open("text", "w")
+for i in range (10):
+    n = input("name:")
+    m = int(input(" mark:"))
+    if m > 20:
+        print("less than 20")
+    else:
+        r =  n,'%d'%m
+        file.writelines(str(r))
+        file.write('\n')
+file.close()
