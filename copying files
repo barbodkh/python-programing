@@ -1,0 +1,6 @@
+f = ('anything')
+f1 = ('any other thing')
+a =open(f)
+b = open(f1, "w")
+q = a.read()
+b.write(q)
