@@ -1,0 +1,8 @@
+f = "anything.txt"
+c = 0
+q =open(f, "r")
+l = q.readlines()
+
+for i in l:
+    c += 1
+print(c)
